@@ -1,0 +1,15 @@
+<svg width="73" height="75" viewBox="0 0 73 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_226_214" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="73" height="75">
+<rect width="73" height="75" transform="matrix(-1 0 0 1 73 0)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_226_214)">
+<mask id="mask1_226_214" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-476" y="0" width="549" height="75">
+<path d="M73 75V0H-476V75H-400V19H0V75H73Z" fill="#FAEADA"/>
+</mask>
+<g mask="url(#mask1_226_214)">
+<rect x="-1.5" y="1.5" width="496" height="54" transform="matrix(-1 0 0 1 47 -10)" stroke="#36200C" stroke-width="3"/>
+<rect x="-1" y="1" width="487" height="45" transform="matrix(-1 0 0 1 43 -5)" stroke="#36200C" stroke-width="2"/>
+<path d="M49.8343 45.8958C49.8281 45.8941 49.8219 45.8924 49.8157 45.8907C49.7578 46.924 49.7087 48.3167 49.734 49.814C49.7599 51.3487 49.8635 52.9601 50.105 54.3931C50.3527 55.8623 50.7203 56.9822 51.1739 57.6542C52.1934 59.1643 53.5417 59.865 54.9528 60.0057C56.4031 60.1503 58.0124 59.7074 59.4457 58.7398C60.8678 57.7798 61.6677 56.609 61.9171 55.4013C62.1645 54.2035 61.915 52.7547 60.8245 51.1393C60.3934 50.5008 59.4839 49.7761 58.1471 49.0396C56.8494 48.3246 55.3101 47.6843 53.8079 47.1454C52.3119 46.6087 50.8873 46.1848 49.8343 45.8958Z" stroke="#36200C" stroke-width="3"/>
+</g>
+</g>
+</svg>

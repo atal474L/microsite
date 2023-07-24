@@ -1,0 +1,105 @@
+.dubaiBackgroundImage {
+    position: absolute;
+    padding: 5vh 0;
+    max-width: 60vw;
+}
+
+nav {
+    background: #FAEADA;
+}
+
+.postsWrapper{
+    position: relative;
+    z-index: 10;
+}
+
+.navButtonsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.buttonContainer {
+    max-width: 70vw;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.buttonContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.buttonContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.navFrame {
+    display: none;
+}
+
+.navBottomGradient, .navTopGradient {
+    position: fixed;
+    width: 100vw;
+    height: 10rem;
+    z-index: 1;
+}
+
+.navBottomGradient {
+    display: unset;
+    background: rgb(250,234,218);
+    background: linear-gradient(0deg, rgba(250,234,218,1) 0%, rgba(250,234,218,0) 100%);
+    bottom: 0;
+}
+
+.navTopGradient {
+    background: rgb(250,234,218);
+    background: linear-gradient(180deg, rgba(250,234,218,1) 0%, rgba(250,234,218,0) 100%);
+    top:0;
+}
+
+.navLogo {
+    max-width: 200px;
+}
+
+@media (min-width: 700px) {
+    .buttonContainer {
+        max-width: 70vw;
+    }
+    .navFrame {
+        display: unset;
+    }
+}
+
+@media (min-width: 900px) {
+    .buttonContainer {
+        max-width: 40vw;
+    }
+
+    .navBottomGradient {
+        display: none;
+    }
+
+    .navLogo {
+        max-width: 500px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .buttonContainer {
+        max-width: 70vw;
+        overflow: unset;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+
+}

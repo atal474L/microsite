@@ -1,0 +1,67 @@
+.temp {
+    width: 10vw;
+    max-width: 90px;
+    position: fixed;
+    bottom: unset;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.time {
+    width: 20vw;
+    max-width: 90px;
+    position: fixed;
+    bottom: unset;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+.temp svg, .time svg {
+    width: 100%;
+    max-width: unset;
+}
+
+.temp p, .time p {
+    font-family: 'dubai-font';
+    display: block;
+    text-align: center;
+    padding: 10px 0 0 20px;
+    font-size: 1.5rem;
+}
+
+.time p {
+    padding: 10px 20px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    .temp, .time {
+        display: flex;
+        flex-direction: column-reverse;
+        bottom: 0;
+        top: unset;
+        width: 20vw;
+        max-width: 90px;
+    }
+
+    .temp {
+        transform: scale(0.8);
+        transform-origin: bottom left;
+    }
+
+    .time {
+        transform: scale(0.8);
+        transform-origin: bottom right;
+    }
+
+    .temp>img, .time>img {
+        transform: scaleY(-1);
+    }
+
+    .temp>p, .time>p {
+        margin-bottom: 0;
+    }
+}

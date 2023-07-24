@@ -1,0 +1,30 @@
+
+
+
+
+@font-face {
+    font-family: 'dubai-font';
+    src: url('../fonts/dubai-font.woff') format('woff'),
+    url('../fonts/dubai-font.woff2') format('woff2');
+}
+
+
+
+.button {
+    background: none;
+    font-family: 'Suez One';
+    border: none;
+    padding: 0.2rem 0.5rem;
+    width: 5rem;
+}
+
+.active, button:hover {
+    color: #FAEADA;
+    border-radius: 30.5px;
+    background-color: #36200C;
+    padding: 0.2rem 0.5rem;
+    width: 5rem;
+    box-shadow:
+        0 0 0 2px #FAEADA,
+        0 0 0 4px #36200C;
+}

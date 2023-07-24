@@ -1,0 +1,16 @@
+.introTextWrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 75vw;
+    max-width: 1280px;
+    aspect-ratio: 1114/443;
+}
+
+.introText {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}

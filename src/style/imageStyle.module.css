@@ -1,0 +1,61 @@
+.filter {
+    /*filter: contrast(0.84) hue-rotate(4deg) saturate(0.8) ;*/
+}
+
+.ratio {
+    aspect-ratio: 1/1;
+    /*object fit want anders wordt deze uitgerokken*/
+    object-fit: cover;
+}
+
+.post {
+    background-color: white;
+    box-shadow:
+        0.6px 0.8px 0.8px -5px rgba(0, 0, 0, 0.066),
+        1.5px 2px 1.8px -5px rgba(0, 0, 0, 0.068),
+        3px 4.1px 3.5px -5px rgba(0, 0, 0, 0.072),
+        6.2px 8.4px 7.9px -5px rgba(0, 0, 0, 0.079),
+        17px 23px 26px -5px rgba(0, 0, 0, 0.09);
+}
+
+.imageContainer {
+    margin: 0 auto;
+}
+
+.maxWidth {
+    max-width: 120em;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.captionAuthor {
+    font-family: 'Suez One';
+    font-size: 14px;
+    line-height: 18px;
+    line-height: 100%;
+}
+
+.captionDescription {
+    font-family: 'Suez One';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.captionDate {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+    color: #444444;
+}
